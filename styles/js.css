@@ -1,0 +1,67 @@
+/* General Styles ---- */
+html {
+    background-color:  #202020;
+    font-family: 'Helvetica Regular', sans-serif; 
+    color: #f5f5f5
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    position: relative;
+}
+
+main {
+    position: relative;
+}
+
+/* Header ------------ */
+.nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.nav-button {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-shout {
+    text-align: center;
+    font-size: larger;
+}
+
+/* Standard ---------- */
+
+h1 {
+    color: #f5f5f5
+}
+
+h2 {
+    color: #f5f5f5
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #6c99ba
+}
+
+a.title {
+    text-decoration: none;
+    color: #f5f5f5
+}
+
+/* Content ----------- */
+.article-title {
+    text-align: center;
+    font-size: 35px;
+}
